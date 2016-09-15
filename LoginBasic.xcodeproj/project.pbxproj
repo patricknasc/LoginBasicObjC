@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		EF8F50A61D89FDAE00A56950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50A51D89FDAE00A56950 /* main.m */; };
 		EF8F50A91D89FDAE00A56950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50A81D89FDAE00A56950 /* AppDelegate.m */; };
-		EF8F50AC1D89FDAE00A56950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50AB1D89FDAE00A56950 /* ViewController.m */; };
+		EF8F50AC1D89FDAE00A56950 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50AB1D89FDAE00A56950 /* LoginViewController.m */; };
 		EF8F50AF1D89FDAE00A56950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F50AD1D89FDAE00A56950 /* Main.storyboard */; };
 		EF8F50B21D89FDAE00A56950 /* LoginBasic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50B01D89FDAE00A56950 /* LoginBasic.xcdatamodeld */; };
 		EF8F50B41D89FDAE00A56950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8F50B31D89FDAE00A56950 /* Assets.xcassets */; };
 		EF8F50B71D89FDAE00A56950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F50B51D89FDAE00A56950 /* LaunchScreen.storyboard */; };
 		EF8F50C21D89FDAE00A56950 /* LoginBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50C11D89FDAE00A56950 /* LoginBasicTests.m */; };
 		EF8F50CD1D89FDAE00A56950 /* LoginBasicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50CC1D89FDAE00A56950 /* LoginBasicUITests.m */; };
+		EF8F50DC1D8A5EE500A56950 /* ContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50DB1D8A5EE500A56950 /* ContatosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,8 @@
 		EF8F50A51D89FDAE00A56950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF8F50A71D89FDAE00A56950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF8F50A81D89FDAE00A56950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF8F50AA1D89FDAE00A56950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF8F50AB1D89FDAE00A56950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF8F50AA1D89FDAE00A56950 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EF8F50AB1D89FDAE00A56950 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		EF8F50AE1D89FDAE00A56950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF8F50B11D89FDAE00A56950 /* LoginBasic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginBasic.xcdatamodel; sourceTree = "<group>"; };
 		EF8F50B31D89FDAE00A56950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,8 @@
 		EF8F50C81D89FDAE00A56950 /* LoginBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8F50CC1D89FDAE00A56950 /* LoginBasicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginBasicUITests.m; sourceTree = "<group>"; };
 		EF8F50CE1D89FDAE00A56950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F50DA1D8A5E9200A56950 /* ContatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContatosViewController.h; sourceTree = "<group>"; };
+		EF8F50DB1D8A5EE500A56950 /* ContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +108,16 @@
 			children = (
 				EF8F50A71D89FDAE00A56950 /* AppDelegate.h */,
 				EF8F50A81D89FDAE00A56950 /* AppDelegate.m */,
-				EF8F50AA1D89FDAE00A56950 /* ViewController.h */,
-				EF8F50AB1D89FDAE00A56950 /* ViewController.m */,
+				EF8F50AA1D89FDAE00A56950 /* LoginViewController.h */,
+				EF8F50AB1D89FDAE00A56950 /* LoginViewController.m */,
 				EF8F50AD1D89FDAE00A56950 /* Main.storyboard */,
 				EF8F50B31D89FDAE00A56950 /* Assets.xcassets */,
 				EF8F50B51D89FDAE00A56950 /* LaunchScreen.storyboard */,
 				EF8F50B81D89FDAE00A56950 /* Info.plist */,
 				EF8F50B01D89FDAE00A56950 /* LoginBasic.xcdatamodeld */,
 				EF8F50A41D89FDAE00A56950 /* Supporting Files */,
+				EF8F50DA1D8A5E9200A56950 /* ContatosViewController.h */,
+				EF8F50DB1D8A5EE500A56950 /* ContatosViewController.m */,
 			);
 			path = LoginBasic;
 			sourceTree = "<group>";
@@ -279,9 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF8F50AC1D89FDAE00A56950 /* ViewController.m in Sources */,
+				EF8F50AC1D89FDAE00A56950 /* LoginViewController.m in Sources */,
 				EF8F50A91D89FDAE00A56950 /* AppDelegate.m in Sources */,
 				EF8F50B21D89FDAE00A56950 /* LoginBasic.xcdatamodeld in Sources */,
+				EF8F50DC1D8A5EE500A56950 /* ContatosViewController.m in Sources */,
 				EF8F50A61D89FDAE00A56950 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

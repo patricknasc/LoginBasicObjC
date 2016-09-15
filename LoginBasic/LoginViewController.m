@@ -1,14 +1,14 @@
 //
-//  ViewController.m
+//  LoginViewController.m
 //  LoginBasic
 //
 //  Created by Patrick Nascimento on 14/09/16.
 //  Copyright © 2016 patrix. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginViewController.h"
 
-@interface ViewController ()
+@interface LoginViewController ()
 
 @property (nonatomic, strong) NSString *username;
 @property (nonatomic, strong) NSString *password;
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -50,10 +50,19 @@
     if(isUsernameEquals && isPasswordEquals){
         NSLog(@"SUCCESS!");
         [self.notificationLabel setText:@"Congratulations you have logged in!"];
+        
     } else {
         NSLog(@"FAILURE!");
         [self.notificationLabel setText:@"Your username or password was incorrect!"];
     }
 }
+
+
+- (IBAction)unwindToLogin:(UIStoryboardSegue *)unwindSegue
+{
+    //Leave empty...
+}
+
+
 
 @end
