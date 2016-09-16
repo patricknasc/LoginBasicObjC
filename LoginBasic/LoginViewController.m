@@ -24,6 +24,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.navigationItem.title=@"Login";
+    
     self.username = @"patricknasc";
     self.password = @"12345";
     self.passwordTextField.secureTextEntry = YES;
@@ -42,19 +44,22 @@
     [self.view endEditing:YES];
 }
 
-- (IBAction)loginWasPressed:(id)sender {
-    
+
+
+- (IBAction)LoginAction:(id)sender {
     BOOL isUsernameEquals = [self.username isEqualToString: [self.userNameTextField text]];
     BOOL isPasswordEquals = [self.password isEqualToString: [self.passwordTextField text]];
     
     if(isUsernameEquals && isPasswordEquals){
         NSLog(@"SUCCESS!");
-        [self.notificationLabel setText:@"Congratulations you have logged in!"];
+        //        [self.notificationLabel setText:@"Congratulations you have logged in!"];
+        [self performSegueWithIdentifier:@"SegueToContatosViewController" sender:self];
         
     } else {
         NSLog(@"FAILURE!");
         [self.notificationLabel setText:@"Your username or password was incorrect!"];
     }
+
 }
 
 
