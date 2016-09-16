@@ -6,4 +6,27 @@
 //  Copyright © 2016 patrix. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "ContatosViewController.h"
+
+@interface ContatosViewController ()
+
+//@property (nonatomic, strong) NSString *username;
+//@property (nonatomic, strong) NSString *password;
+//@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
+//@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+//@property (weak, nonatomic) IBOutlet UILabel *notificationLabel;
+
+@end
+
+@implementation ContatosViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.title=@"Contatos";
+    
+}
+
+
+@end

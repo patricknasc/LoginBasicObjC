@@ -17,6 +17,8 @@
 		EF8F50C21D89FDAE00A56950 /* LoginBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50C11D89FDAE00A56950 /* LoginBasicTests.m */; };
 		EF8F50CD1D89FDAE00A56950 /* LoginBasicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50CC1D89FDAE00A56950 /* LoginBasicUITests.m */; };
 		EF8F50DC1D8A5EE500A56950 /* ContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50DB1D8A5EE500A56950 /* ContatosViewController.m */; };
+		EF8F50E11D8A85BD00A56950 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50E01D8A85BD00A56950 /* SecondViewController.m */; };
+		EF8F50E41D8B171000A56950 /* CadastrarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F50E31D8B171000A56950 /* CadastrarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		EF8F50CE1D89FDAE00A56950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF8F50DA1D8A5E9200A56950 /* ContatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContatosViewController.h; sourceTree = "<group>"; };
 		EF8F50DB1D8A5EE500A56950 /* ContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatosViewController.m; sourceTree = "<group>"; };
+		EF8F50DF1D8A85BD00A56950 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EF8F50E01D8A85BD00A56950 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EF8F50E21D8B171000A56950 /* CadastrarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastrarViewController.h; sourceTree = "<group>"; };
+		EF8F50E31D8B171000A56950 /* CadastrarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastrarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,8 @@
 				EF8F50A81D89FDAE00A56950 /* AppDelegate.m */,
 				EF8F50AA1D89FDAE00A56950 /* LoginViewController.h */,
 				EF8F50AB1D89FDAE00A56950 /* LoginViewController.m */,
+				EF8F50DF1D8A85BD00A56950 /* SecondViewController.h */,
+				EF8F50E01D8A85BD00A56950 /* SecondViewController.m */,
 				EF8F50AD1D89FDAE00A56950 /* Main.storyboard */,
 				EF8F50B31D89FDAE00A56950 /* Assets.xcassets */,
 				EF8F50B51D89FDAE00A56950 /* LaunchScreen.storyboard */,
@@ -118,6 +126,8 @@
 				EF8F50A41D89FDAE00A56950 /* Supporting Files */,
 				EF8F50DA1D8A5E9200A56950 /* ContatosViewController.h */,
 				EF8F50DB1D8A5EE500A56950 /* ContatosViewController.m */,
+				EF8F50E21D8B171000A56950 /* CadastrarViewController.h */,
+				EF8F50E31D8B171000A56950 /* CadastrarViewController.m */,
 			);
 			path = LoginBasic;
 			sourceTree = "<group>";
@@ -284,8 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8F50E11D8A85BD00A56950 /* SecondViewController.m in Sources */,
 				EF8F50AC1D89FDAE00A56950 /* LoginViewController.m in Sources */,
 				EF8F50A91D89FDAE00A56950 /* AppDelegate.m in Sources */,
+				EF8F50E41D8B171000A56950 /* CadastrarViewController.m in Sources */,
 				EF8F50B21D89FDAE00A56950 /* LoginBasic.xcdatamodeld in Sources */,
 				EF8F50DC1D8A5EE500A56950 /* ContatosViewController.m in Sources */,
 				EF8F50A61D89FDAE00A56950 /* main.m in Sources */,
@@ -526,6 +538,7 @@
 				EF8F50D31D89FDAE00A56950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF8F50D41D89FDAE00A56950 /* Build configuration list for PBXNativeTarget "LoginBasicTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +547,7 @@
 				EF8F50D61D89FDAE00A56950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF8F50D71D89FDAE00A56950 /* Build configuration list for PBXNativeTarget "LoginBasicUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +556,7 @@
 				EF8F50D91D89FDAE00A56950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
